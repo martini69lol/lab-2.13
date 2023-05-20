@@ -1,6 +1,9 @@
-from lab_package import FlightManager
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
-if name == 'main':
+from flight_manager import *
+
+if __name__ == '__main__':
     manager = FlightManager()
 
     while True:
